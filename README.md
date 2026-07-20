@@ -93,30 +93,55 @@ README.md
 
 ## Installation
 
-### Clone the repository
+### 1. Clone the repository
 
 ```bash
-[git clone https://github.com/PavanSatya5/Voice-Based-Concept-Understanding-Analyser.git]
+git clone https://github.com/PavanSatya5/Voice-Based-Concept-Understanding-Analyser.git
 ```
 
-### Navigate to the project
+### 2. Navigate to the project directory
 
 ```bash
-cd Voice-Based-Concept-Understanding-Analyzer
+cd Voice-Based-Concept-Understanding-Analyser
 ```
 
-### Install dependencies
+### 3. (Optional) Create and activate a virtual environment
+
+#### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### macOS / Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 4. Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the application
+### 5. Run the Streamlit application
 
 ```bash
 streamlit run app.py
 ```
 
+### 6. Open the application
+
+After the application starts, Streamlit will display a local URL similar to:
+
+```
+http://localhost:8501
+```
+
+Open this URL in your browser to access the application.
 ---
 
 ## Workflow
@@ -244,9 +269,9 @@ Computer Science and Engineering (AI & ML)
 
 ## Developed By
 
-**Anand Sai**
+**Pavan Surisetti**
 
-B.Tech Computer Science & Engineering (AI & ML)
+B.Tech Computer Science & Engineering
 
 ---
 
