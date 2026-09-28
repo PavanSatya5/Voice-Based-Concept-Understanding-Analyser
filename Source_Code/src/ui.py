@@ -45,11 +45,8 @@ using speech recognition and semantic analysis.
 
 ### Developed By
 
-**Anand Sai**
+**Pavan**
 
-B.Tech CSE (AI & ML)
-
-Version 1.0
 
 © 2026
 """
